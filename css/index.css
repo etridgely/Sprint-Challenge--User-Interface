@@ -71,6 +71,37 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+header nav {
+    display: flex;
+    width: 75%;
+    height: 31%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+header nav a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+  }
+
+.jumbo {
+    display: flex;
+    margin: 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +143,165 @@ p {
     justify-content: center;
 }
 
+.box-1 {
+    width: 12.5%;
+    height: 100px;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.box-2 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: gold;
+}
+
+.box-3 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: cadetblue;
+}
+
+.box-4 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: coral;
+}
+
+.box-5 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: crimson;
+}
+
+.box-6 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: forestgreen;
+}
+
+.box-7 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: darkorchid;
+}
+
+.box-8 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: hotpink;
+}
+
+.box-9 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: indigo;
+}
+
+.box-10 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: dodgerblue;
+}
+
+.jumbo-about {
+    margin: 20px 0px 0px 0px;
+}
+
+.about-top-content {
+    margin: 0px 10px 20px 10px;
+    padding: 20px 2%;
+    border-bottom: 1px dashed black;
+}
+
+.about-middle-content {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 20px 2%;
+}
+
+.about-middle-content h2 {
+    padding: 15px 0px;
+    margin-bottom: 0;
+}
+
+.about-middle-content .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.about-bottom-content {
+    display: flex;
+    margin: 0px 10px 20px 10px;
+    padding: 20px 2%;
+    justify-content: space-around;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    background: white;
+    border: 2px solid black;
+    margin: 20px 0px;
+}
+
+.text-container-2 {
+    border-bottom: 1px dashed black;
+    margin: 0 10px;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +334,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
